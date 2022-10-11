@@ -1,25 +1,37 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import About from './Components/About';
+import Count from './Components/Count';
+
+
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Count />
+
+      <About name='Ram' />
+    </>
+
   );
+
+
+  // const Id = "User";
+  // const password = 12345;
+
+  // if (Id === "User" && password === 12345) {
+  //   return (
+  //     <Login />
+  //   );
+  // }
+
+  // else {
+  //   return (
+  //     <p>Invalid Login</p>
+  //   );
+  // }
 }
 
 export default App;
