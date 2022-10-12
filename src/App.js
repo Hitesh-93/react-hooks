@@ -1,7 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
-import About from './Components/About';
-import Count from './Components/Count';
+// import About from './Components/About';
+// import Count from './Components/Count';
+import Api from './Components/Api';
 
 
 
@@ -10,9 +11,11 @@ function App() {
 
   return (
     <>
-      <Count />
+      {/* <Count />
 
-      <About name='Ram' />
+      <About name='Ram' /> */}
+
+      <Api />
     </>
 
   );

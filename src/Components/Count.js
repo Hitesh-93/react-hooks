@@ -18,7 +18,7 @@ const Count = () => {
     return (
 
         <>
-            <h2>{count}</h2>
+            <h2>{count} time count</h2>
             <button onClick={counting}>Click for count</button>
         </>
 
