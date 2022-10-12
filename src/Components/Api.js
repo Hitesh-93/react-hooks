@@ -24,7 +24,7 @@ const Api = () => {
     return (
 
         <>
-            <table border={1} style={{ borderCollapse: 'collapse' }}>
+            <table border={1} style={{ borderCollapse: 'collapse', textAlign: 'center' }}>
                 <tr>
                     <th>Id</th>
                     <th>Name</th>
@@ -42,7 +42,7 @@ const Api = () => {
                                     <td> {cval.name}</td>
                                     <td> {cval.email}</td>
                                     <td> {cval.address.street}, {cval.address.suite}
-                                        , {cval.address.city} - {cval.address.zipcode}
+                                        , {cval.address.city} {cval.address.zipcode}
                                     </td>
                                 </tr>
 
