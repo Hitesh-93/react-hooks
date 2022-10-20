@@ -3,6 +3,7 @@ import './App.css';
 // import About from './Components/About';
 // import Count from './Components/Count';
 import Api from './Components/Api';
+import ApiNew from './Components/ApiNew';
 
 
 
@@ -14,9 +15,10 @@ function App() {
 
       <About name='Ram' /> */}
 
-      <Api />
+      {/* <Api /> */}
 
-      
+      <ApiNew />
+
     </>
 
   );
