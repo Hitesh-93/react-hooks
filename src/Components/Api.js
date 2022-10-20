@@ -12,7 +12,7 @@ const Api = () => {
         const mainData = await res.json();
         setData(mainData)
     }
-
+    
 
     useEffect(() => {
         getData();
@@ -20,7 +20,6 @@ const Api = () => {
 
 
     return (
-
         <>
             <table border={1} style={{ borderCollapse: 'collapse', textAlign: 'center' }}>
                 <tr>
@@ -42,6 +41,7 @@ const Api = () => {
                                         , {cval.address.city} {cval.address.zipcode}
                                     </td>
                                 </tr>
+
                             </>
                         )
                     })
