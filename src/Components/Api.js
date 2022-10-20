@@ -6,7 +6,6 @@ const Api = () => {
 
     const [data, setData] = useState([]);
 
-
     async function getData() {
 
         const res = await fetch("https://jsonplaceholder.typicode.com/users");
@@ -14,12 +13,14 @@ const Api = () => {
         setData(mainData)
     }
 
+
     useEffect(() => {
         getData();
     }, [])
 
 
     return (
+
         <>
             <table border={1} style={{ borderCollapse: 'collapse', textAlign: 'center' }}>
                 <tr>
