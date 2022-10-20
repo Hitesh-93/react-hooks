@@ -1,3 +1,5 @@
+//  access data using fetch method and useEffect hook
+
 import React from "react"
 import { useState, useEffect } from 'react'
 

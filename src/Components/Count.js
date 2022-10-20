@@ -1,3 +1,6 @@
+//  number counting using useState hook
+
+
 import React from 'react'
 import { useState } from 'react';
 
