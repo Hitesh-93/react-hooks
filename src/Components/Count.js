@@ -1,4 +1,5 @@
-//  number counting using useState hook
+
+//  number counting and use of useState hook
 
 
 import React from 'react'
@@ -9,7 +10,7 @@ const Count = () => {
 
     const [count, setCount] = useState(0);
 
-    // let count = 0;
+    // const count = 0;
 
     function counting() {
 

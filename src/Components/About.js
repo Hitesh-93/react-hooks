@@ -1,3 +1,7 @@
+
+//     Use of props to send data from parent to chield
+
+
 import React from 'react'
 import { useState } from 'react';
 
