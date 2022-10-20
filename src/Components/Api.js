@@ -14,15 +14,12 @@ const Api = () => {
         setData(mainData)
     }
 
-
     useEffect(() => {
         getData();
     }, [])
 
 
-
     return (
-
         <>
             <table border={1} style={{ borderCollapse: 'collapse', textAlign: 'center' }}>
                 <tr>
@@ -31,7 +28,6 @@ const Api = () => {
                     <th>Email</th>
                     <th>Address</th>
                 </tr>
-
 
                 {
                     data.map((cval) => {
@@ -45,13 +41,11 @@ const Api = () => {
                                         , {cval.address.city} {cval.address.zipcode}
                                     </td>
                                 </tr>
-
                             </>
                         )
                     })
                 }
             </table>
-
         </>
     )
 }
